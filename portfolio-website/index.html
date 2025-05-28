@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <style>
+       
+        .resized-image {
+            width: 300px; 
+            height: 300px; 
+        }
+    </style>
+    <title>portfolio</title>
+</head>
+
+<body>
+    
+    <!--navbar-->
+    <nav>
+<div class="left">
+    <a href="/">Blnd Yohan</a>
+</div>
+<div class="right">
+    <a href="https://github.com/blnd-yohan" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+    </a>
+
+    <a href="https://www.linkedin.com/in/blnd-yohan-0a7412367?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+    </a>
+
+    <a class="email" href="mailto:blind2200@gmail.com" aria-label="Send an email to Blnd Yohan" >
+
+    <i class="fa-solid fa-envelope"></i>
+    <span>Gmail</span>
+</a>
+
+</div>
+    </nav>
+     
+    <main> 
+        <!-- SECTION 1 : hero -->
+        <section class="hero-section">
+         <div class="text">
+            <h2>Hi,I'm Blnd</h2>
+            <p>Hi there! I'm Blnd Yohan, a passionate fisherman and an aspiring programmer with a love for creating and learning new things. When I’m not out on the water catching fish, I’m diving into code, crafting solutions, and exploring the world of technology.
+                As a beginner programmer, I’m building my skills one project at a time, focusing on [HTML , CSS and some of C# ]. I’m excited to share my journey with you and learn from your experiences.
+            </p>
+
+            <div class="links">
+           <a href="#skills">
+        <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+
+           <a href="#testimony">
+        <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+
+           <a href="#contact">
+        <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+            </div>
+         </div>
+
+         <div class="headshot">
+            <img src="images/blnd.jpg" alt="Blnd Yohan headshot" class="resized-image">
+         </div>    
+        </section>
+
+        <!-- SECTION 2 : skills -->
+         <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+             I’m at the start of my programming journey, building a strong foundation in C#, HTML, and CSS. I enjoy creating simple console applications while also learning to design visually appealing web pages. With a problem-solving mindset, I tackle challenges by breaking them into manageable steps and crafting practical solutions. My curiosity drives me to explore topics like arrays, methods, and responsive design. Beyond coding, my experience as a fisherman has instilled patience, focus, and teamwork—skills I bring to every project I work on.
+        </div>
+
+        <div class="cells">
+            <div class="cell">
+                <img src="images/html-logo.webp" alt=" html-logo">
+                <span>HTML</span>
+            </div>
+
+            <div class="cell">
+                <img src="images/css-logo.webp" alt=" css logo">
+                <span>CSS</span>
+            </div>
+            <div class="cell">
+                <img src="images/c-sharp.png" alt=" c-sharp" height="96" width="96">
+                <span>C#</span>
+            </div>
+        </div>
+
+             </section>
+
+        <!-- SECTION 3 : testimony -->
+         <section id="testimony" class="testimony-section">
+            <h2>Testimony</h2>
+            <div class="group">
+                <div class="person-details">
+                    <img src="/images/testimony.JPG"   width="200px">
+                    <p>Blnd Yohan</p>
+                    <p>Aspiring Programmer | Problem Solver | Lifelong Learner
+</p>
+                </div>
+
+                <div class="text">
+"Blnd Yohan is a passionate and driven beginner programmer skilled in C#, HTML, and CSS. With a strong work ethic shaped by his experience as a fisherman, he brings patience, resilience, and a problem-solving mindset to every challenge. Blnd’s enthusiasm for learning and growth makes him a rising talent in tech."
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4 : contact -->
+         <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group"> 
+            <div class="text">
+             <a href="tel:+964 7774570098" class="phone-link">
+                <i class="fa-solid fa-phone"></i>
+                <span>0777-457-0098</span>
+            </a>
+            </div>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email">
+
+                 <label for="message">Message</label>
+                 <textarea id="message" cols="30" rows="10"></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+    
+        </div>
+
+        </section>
+    </main>
+    
+</body>
+</html>
